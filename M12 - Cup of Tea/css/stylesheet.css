@@ -1,0 +1,424 @@
+* {
+	box-sizing: border-box;
+	outline: none;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.6rem;
+	background-color: #F2F2F2;
+	color: #474646;
+	line-height: 1.8;
+}
+
+.contain, main {
+	max-width: 1100px;
+	margin: auto;
+}
+
+h1, h4 {
+	font-size: 4rem;
+	color: #96A710;
+}
+
+h2 {
+	font-size: 2.5rem;
+	color: #96A710;
+	text-align: center;
+}
+
+h2 span {
+   background-color: white;
+   padding: 0 10px;
+   line-height: 1.8em;
+}
+
+h2::after {
+   border-top: 1px solid #ccc;
+   content: "";
+   display: block;
+   width: 100%;
+   margin-top: -20px;
+}
+
+h3 {
+	font-size: 2rem;
+	color: white;
+}
+
+header {
+	background-image: url("../img/bg.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+#shipping {
+	color: #E5E1E1;
+	background-color: rgba(5, 5, 5, 0.1);
+	padding: 10px 0;
+	text-align: center;
+}
+
+#ribbon, #panier, #promo {
+	display: none;
+}
+
+#cart_title {
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+}
+
+#cart_title #cart {
+	align-self: flex-start;
+}
+
+#cart {
+	margin-top: 20px;
+	padding: 5px 10px;
+	box-shadow: 0px 0px 2px 2px rgba(20, 20, 20, 0.1);
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+
+header a {
+	text-decoration: none;
+	color: white;
+}
+
+header i {
+	color: #EDE8E8;
+	border: 1px solid rgba(200, 200, 200, 0.9);
+	border-radius: 50%;
+	padding: 10px;
+}
+
+nav {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	text-align: center;
+}
+
+nav a {
+	margin: 20px 0;
+	padding: 20px;
+	transition: all 0.8s ease-out;
+}
+
+nav a:hover {
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+main section {
+	background-color: white;
+	margin: 30px 0;
+	padding: 20px 0;
+}
+
+#tea {
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+#tea:hover article {
+	opacity: 0.5;
+}
+
+#tea h2 {
+	color: #96A710;
+	text-align: center;
+	flex: 100%;
+}
+
+#tea article {
+	display: flex;
+	flex-direction: column;
+	flex: 50%;
+	transition: opacity 0.8s ease-out;
+}
+
+#tea article:hover {
+	opacity: 1;
+}
+
+#tea a {
+	align-self: center;
+	text-decoration: none;
+	color: #6E6E6E;
+	font-weight: bold;
+}
+
+#product {
+	text-align: center;
+	margin: 0 auto;
+	color: #6E6E6E;
+	margin-bottom: 50px;
+	padding: 15px;
+}
+
+figcaption {
+	font-weight: bold;
+	color: #6E6E6E;
+}
+
+.cta {
+	background-color: #A98364;
+	border: none;
+	color: white;
+	padding: 15px;
+	margin-bottom: 20px;
+	transition: opacity 0.8s ease-out;
+}
+
+.cta:hover {
+	opacity: 0.75;
+	cursor: pointer;
+}
+
+footer {
+	text-align: center;
+	background-image: url("../img/bg.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+footer section a {
+	text-decoration: none;
+	color: #D4D1D3;
+}
+
+#about {
+	background-color: #879E0F;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding: 20px;
+}
+
+#about a {
+	margin: 5px;
+	text-align: center;
+}
+
+#about a i {
+	display: block;
+	margin-bottom: 10px;
+}
+
+#navtime {
+	padding: 30px;
+	background-color: #96B011;
+}
+
+#navtime article {
+	display: flex;
+	flex-direction: column;
+	padding: 15px;
+}
+
+#navtime article a {
+	margin: 10px;
+}
+
+#productPage, #productPage h2 {
+	text-align: left;
+
+}
+
+#productPage section {
+	padding: 20px;
+}
+
+#productPage article {
+	text-align: center;
+}
+
+#productPage a img {
+	float: left;
+	display: none;
+}
+
+#productPage h2 {
+	padding-left: 15px;
+}
+
+#productPage h3 {
+	color: #6E6E6E;
+}
+
+#aboutCupOfTea h1, #aboutCupOfTea h4 {
+	color: #474646;
+}
+
+#aboutCupOfTea, #aboutCupOfTea h2 {
+	text-align: left;
+	background-color: white;
+	padding: 15px;
+}
+
+#aboutCupOfTea #director img {
+	width: 100%;
+}
+
+#aboutCupOfTea #concept {
+	text-align: center;
+	background-color: #EAEFCF;
+	padding: 20px;
+}
+
+#aboutCupOfTea #concept img {
+	margin-top: 25px;
+	width: 75px;
+}
+
+#aboutCupOfTea h3 {
+	color: #6E6E6E;
+}
+
+#licence {
+    color: #FFF;
+    text-align: center;
+    padding: 25px;
+    display: block;
+}
+
+#licence img {
+    width: 50px;
+    margin: 0 auto;
+}
+
+#licence a {
+	text-decoration: none;
+	margin: 0;
+    color: #FFFFFF;
+}
+
+@media screen and (min-width: 768px)
+{
+	#ribbon {
+		display: block;
+		position: absolute;
+		right: 0px;
+		top: 0px;
+		width: 100px;
+	}
+
+	#panier {
+		display: inline-block;
+		color: #EDE8E8;
+	}
+
+	#cart_title {
+		flex-direction: row;
+		justify-content: space-between;
+		padding: 25px;
+	}
+
+	#cart {
+		box-shadow: none;
+	}
+
+	nav {
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+	nav a {
+		text-align: center;
+	}
+
+	#promo {
+		background-color: #F2F2F2;
+		padding: 0;
+		margin: 0;
+		display: inline-block;
+		text-align: center;
+	}
+
+	#promo figure {
+		width: 100%;
+		margin: auto;
+	}
+
+	#promo img {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.slider {
+		width: 100%;
+	}
+
+	#promo figcaption {
+		font-size: 1rem;
+		margin-bottom: 20px;
+	}
+
+	#navtime {
+		display: flex;
+		text-align: center;
+		flex-direction: row;
+	}
+	#navtime article {
+		flex: 1;
+	}
+
+	#aboutCupOfTea #director #xavier {
+		width: 500px;
+		float: right;
+		margin-left: 20px;
+	}
+
+	#aboutCupOfTea #director img {
+		width: 500px;
+		margin-right: 20px;
+		float: left;
+	}
+}
+
+@media screen and (min-width: 1024px)
+{
+	#tea article {
+		flex: 1;
+	}
+
+	#product {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	#product img {
+		width: 80%;
+	}
+
+	#product article {
+		padding: 0 10px;
+	}
+
+	#productPage div {
+		display: flex;
+	}
+
+	#productPage div img {
+		width: 100%;
+	}
+
+	#productPage a img {
+		display: block;
+	}
+
+	#aboutCupOfTea #concept {
+		display: flex;
+	}
+
+	#aboutCupOfTea #concept article {
+		padding: 15px;
+	}
+}
